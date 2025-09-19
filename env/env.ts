@@ -1,4 +1,3 @@
-import consola from "consola";
 import devEnv from "./env.dev";
 import prodEnv from "./env.prod";
 

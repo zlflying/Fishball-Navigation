@@ -1,26 +1,63 @@
 $-colors: (
-  'primary': (
-    'base': #fa661f,
-  ),
-  'success': (
-    'base': #67c23a,
-  ),
-  'warning': (
-    'base': #e6a23c,
-  ),
-  'danger': (
-    'base': #f56c6c,
-  ),
-  'error': (
-    'base': #f56c6c,
-  ),
-  'info': (
-    'base': #909399,
-  ),
+        'primary': (
+                'base': #fa661f,
+        ),
+        'success': (
+                'base': #67c23a,
+        ),
+        'warning': (
+                'base': #e6a23c,
+        ),
+        'danger': (
+                'base': #f56c6c,
+        ),
+        'error': (
+                'base': #f56c6c,
+        ),
+        'info': (
+                'base': #909399,
+        ),
+);
+
+// 定义圆角变量
+$-border-radius: (
+        'base': 6px, // 更改为您需要的圆角值
+        'small': 4px,
+        'round': 20px,
+        'circle': 100%
 );
 
 @forward 'element-plus/theme-chalk/src/common/var.scss' with (
-  $colors: $-colors
+  $colors: $-colors,
+  $border-radius: $-border-radius
 );
 
 @use './dark.scss';
+
+// 增强波纹效果
+.el-button {
+  position: relative;
+  overflow: hidden;
+
+  // 确保波纹元素存在
+  .el-button__ripple {
+    display: block !important;
+  }
+}
+
+// 自定义波纹样式
+.el-button__ripple {
+  background-color: currentColor;
+  opacity: 0.2;
+  border-radius: 50%;
+  position: absolute;
+  transform: scale(0);
+  animation: ripple 0.6s linear;
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}

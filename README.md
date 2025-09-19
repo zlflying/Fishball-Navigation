@@ -1,4 +1,4 @@
-# Element Plus with Nuxt 3 Minimal Starter
+# 鱼丸导航站
 
 ## Setup
 

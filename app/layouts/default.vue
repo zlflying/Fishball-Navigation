@@ -1,6 +1,22 @@
 <template>
-  <main class="tw-min-w-120 tw-px-28">
-    <DarkToggle />
-    <slot/>
+  <main class="common-layout">
+    <el-container>
+      <el-header>
+        <Header></Header>
+      </el-header>
+      <el-container>
+        <el-aside width="200px">Aside</el-aside>
+        <el-main class="main tw-bg-[#f5f7fc] dark:tw-bg-[#1f2d3d]">
+          <slot></slot>
+        </el-main>
+      </el-container>
+    </el-container>
   </main>
 </template>
+<script setup lang="ts">
+</script>
+<style lang="scss" scoped>
+.common-layout {
+  min-height: 100vh;
+}
+</style>
