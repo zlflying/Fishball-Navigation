@@ -46,15 +46,15 @@ export default defineNuxtConfig({
     },
 
     modules: [
-      '@vueuse/nuxt',
-      '@pinia/nuxt',
-      '@nuxtjs/seo',
-      '@element-plus/nuxt',
-      '@nuxtjs/color-mode',
-      '@nuxtjs/tailwindcss',
-      '@formkit/auto-animate/nuxt',
-      'pinia-plugin-persistedstate/nuxt',
-      '@nuxt/icon'
+        '@vueuse/nuxt',
+        '@pinia/nuxt',
+        '@nuxtjs/seo',
+        '@element-plus/nuxt',
+        '@nuxtjs/color-mode',
+        '@nuxtjs/tailwindcss',
+        '@formkit/auto-animate/nuxt',
+        'pinia-plugin-persistedstate/nuxt',
+        '@nuxt/icon'
     ],
 
     plugins: [
@@ -71,7 +71,7 @@ export default defineNuxtConfig({
                 {name: 'viewport', content: 'width=device-width, initial-scale=1'},
                 {name: 'description', content: envConfig.appDesc},
             ],
-            link: [{rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}],
+            link: [{rel: 'icon', type: 'image/x-icon', href: envConfig.baseUrl + 'favicon.ico'}],
         },
         // 布局过渡
         layoutTransition: {name: 'layout', mode: 'out-in'},
