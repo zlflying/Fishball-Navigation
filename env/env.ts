@@ -1,3 +1,4 @@
+import consola from "consola";
 import devEnv from "./env.dev";
 import prodEnv from "./env.prod";
 
@@ -7,6 +8,9 @@ export interface Env {
     // 未知环境变量 根据实际需要调整类型
     [key: string]: string | number | boolean;
 
+    // 已知环境变量
+    /** 网站地址 */
+    baseUrl: string,
     /** 网站名称 */
     appName: string,
     /** 网站描述 */
