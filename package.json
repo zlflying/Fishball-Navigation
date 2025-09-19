@@ -1,0 +1,54 @@
+{
+  "name": "element-plus-nuxt-starter",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@9.14.2",
+  "version": "0.1.0",
+  "description": "Element Plus with Nuxt 3 Minimal Starter",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "preview": "nuxi preview",
+    "start": "node .output/server/index.mjs",
+    "start:pm2": "pm2 start ecosystem.config.cjs",
+    "stop:pm2": "pm2 stop ecosystem.config.cjs",
+    "generate": "nuxi generate",
+    "prepare": "nuxi prepare",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "2.3.2",
+    "defu": "6.1.4",
+    "element-plus": "2.11.2"
+  },
+  "devDependencies": {
+    "@element-plus/nuxt": "1.1.4",
+    "@formkit/auto-animate": "0.9.0",
+    "@iconify-json/line-md": "1.2.11",
+    "@nuxt/icon": "2.0.0",
+    "@nuxtjs/color-mode": "3.5.2",
+    "@nuxtjs/seo": "3.2.2",
+    "@nuxtjs/tailwindcss": "6.14.0",
+    "@pinia/nuxt": "0.11.2",
+    "@vueuse/nuxt": "13.9.0",
+    "consola": "3.4.2",
+    "nuxt": "4.1.2",
+    "pinia-plugin-persistedstate": "4.5.0",
+    "sass": "1.92.1",
+    "typescript": "5.9.2",
+    "vue-tsc": "3.0.7"
+  },
+  "peerDependencies": {
+    "pinia": "3.0.3"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "webpack",
+        "vite",
+        "vue"
+      ]
+    }
+  }
+}
