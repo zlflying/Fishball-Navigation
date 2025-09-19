@@ -86,6 +86,10 @@ export default defineNuxtConfig({
 
     sitemap: {},
 
+    robots:{
+        robotsTxt: false,
+    },
+
     runtimeConfig: {
         //私钥仅在服务器上可用
         apiSecret: 'secret',

@@ -5,7 +5,7 @@
 
 <template>
   <div>
-    <AnimView/>
+    <Search />
   </div>
 </template>
 

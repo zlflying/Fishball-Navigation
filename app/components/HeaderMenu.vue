@@ -1,18 +1,28 @@
 <script setup lang="ts">
-const value = ref('通用学科')
+import {ArrowDown} from "@element-plus/icons-vue";
 
-const options = ['通用学科', '计算机科学']
+const value = ref('1')
+
+const options = [{
+  key: '1',
+  label: '通用学科',
+  disabled: false
+}, {
+  key: '2',
+  label: '计算机科学',
+  disabled: false
+}];
 </script>
 
 <template>
-  <div class="custom-style">
-    <el-segmented size="large" v-model="value" :options="options" class="tw-shadow-2xl"/>
-  </div>
+  <el-segmented v-model="value" :options="options" size="large" >
+    <template #default="scope">
+      <div class="tw-flex tw-flex-col tw-items-center tw-gap-2 tw-p-2">
+        <div>{{ scope.item.label }}</div>
+      </div>
+    </template>
+  </el-segmented>
 </template>
 
 <style scoped lang="scss">
-.custom-style .el-segmented {
-  --el-segmented-bg-color: #eceff7;
-  --el-border-radius-base: 50px;
-}
 </style>

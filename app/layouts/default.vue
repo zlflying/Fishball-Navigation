@@ -11,6 +11,7 @@
         </el-main>
       </el-container>
     </el-container>
+    <el-backtop :right="100" :bottom="100" />
   </main>
 </template>
 <script setup lang="ts">
@@ -18,5 +19,7 @@
 <style lang="scss" scoped>
 .common-layout {
   min-height: 100vh;
+  // 隐藏滚动条
+  overflow: hidden;
 }
 </style>
