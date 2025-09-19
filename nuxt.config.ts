@@ -81,6 +81,7 @@ export default defineNuxtConfig({
 
     site: {
         name: envConfig.appName,
+        url: 'https://github.com/zlflying' + envConfig.baseUrl,
     },
 
     sitemap: {},
