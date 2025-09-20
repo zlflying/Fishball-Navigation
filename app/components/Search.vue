@@ -28,10 +28,10 @@ const search = () => {
       <el-button type="primary" :icon="Search" round @click="search">搜索</el-button>
     </div>
     <div class="search-node tw-flex tw-flex-row tw-justify-evenly tw-items-center tw-gap-20">
-      <div class="search-item tw-cursor-pointer tw-p-1 tw-text-lg" v-for="item in searchNodes" :key="item.sourceCode"
+      <div class="search-item tw-cursor-pointer tw-p-2 tw-text-lg tw-flex tw-gap-1" v-for="item in searchNodes" :key="item.sourceCode"
            @click="itemClick(item)"
            :class="{'item-active': selectedNode === item.sourceCode}">
-        <img :src="item.iconPath" alt=""/>
+        <img :src="item.iconPath" alt="" class="tw-w-6"/>
         <span class="tw-text-base tw-font-sans tw-font-normal">{{ item.sourceName }}</span>
       </div>
     </div>

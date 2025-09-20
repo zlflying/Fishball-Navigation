@@ -6,7 +6,7 @@
       </el-header>
       <el-container class="common-main">
         <el-aside width="200px"><MainMenu /></el-aside>
-        <el-main class="main tw-bg-[#f5f7f3] dark:tw-bg-[#1f2d3d]">
+        <el-main class="main tw-bg-[#dde4fd] dark:tw-bg-[#1f2d3d]">
           <slot></slot>
         </el-main>
       </el-container>
@@ -28,6 +28,7 @@
 
   .common-main{
     min-height: calc(100vh - 60px);
+    max-height: calc(100vh - 60px);
   }
 }
 </style>
