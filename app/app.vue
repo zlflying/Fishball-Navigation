@@ -5,10 +5,10 @@ const envConfig = getEnvConfig();
 
 useSeoMeta({
   ogTitle: envConfig.appName,
-  ogImage: '/favicon.ico',
+  ogImage: '/img/logo.svg',
   twitterTitle: envConfig.appName,
   twitterDescription: envConfig.appDesc,
-  twitterImage: '/favicon.ico',
+  twitterImage: '/img/logo.svg',
   twitterCard: 'summary_large_image',
 })
 
@@ -21,7 +21,7 @@ defineOgImageComponent('NuxtSeo', {
 
 </script>
 <template>
-  <NuxtLayout class="tw-font-sans tw-font-medium tw-tracking-normal">
+  <NuxtLayout>
     <NuxtPage/>
   </NuxtLayout>
 </template>

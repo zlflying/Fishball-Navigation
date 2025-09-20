@@ -7,9 +7,9 @@ export interface MenuNode {
     /** 节点类型 */
     nodeType: "MENU" | "ITEM",
     /** 节点图标 */
-    iconPath: string;
+    iconPath: string | null;
     /** 节点激活图标 */
-    activeIconPath: string;
+    activeIconPath: string | null;
     /** 节点子节点 */
     children: MenuNode[];
     /** 菜单项 */

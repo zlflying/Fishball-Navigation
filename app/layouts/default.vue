@@ -4,9 +4,9 @@
       <el-header>
         <Header></Header>
       </el-header>
-      <el-container>
-        <el-aside width="200px">Aside</el-aside>
-        <el-main class="main tw-bg-[#f5f7fc] dark:tw-bg-[#1f2d3d]">
+      <el-container class="common-main">
+        <el-aside width="200px"><MainMenu /></el-aside>
+        <el-main class="main tw-bg-[#f5f7f3] dark:tw-bg-[#1f2d3d]">
           <slot></slot>
         </el-main>
       </el-container>
@@ -19,7 +19,15 @@
 <style lang="scss" scoped>
 .common-layout {
   min-height: 100vh;
+  max-height: 100vh;
   // 隐藏滚动条
-  overflow: hidden;
+  ::-webkit-scrollbar {
+    display: none;
+    width: 0;
+  }
+
+  .common-main{
+    min-height: calc(100vh - 60px);
+  }
 }
 </style>

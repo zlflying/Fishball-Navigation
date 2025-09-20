@@ -23,15 +23,16 @@ const search = () => {
 <template>
   <div class="search">
     <div
-        class="search-input tw-bg-white dark:tw-bg-500 tw-rounded-full tw-flex tw-flex-row tw-items-center tw-gap-2 tw-p-2">
+        class="search-input tw-bg-gray-300 dark:tw-bg-500 tw-rounded-full tw-flex tw-flex-row tw-items-center tw-gap-2 tw-p-2">
       <el-input class="search-input-text" size="large" v-model="query" placeholder="请输入搜索内容"/>
       <el-button type="primary" :icon="Search" round @click="search">搜索</el-button>
     </div>
     <div class="search-node tw-flex tw-flex-row tw-justify-evenly tw-items-center tw-gap-20">
-      <div class="search-item tw-cursor-pointer tw-p-2 tw-text-lg" v-for="item in searchNodes" :key="item.sourceCode"
+      <div class="search-item tw-cursor-pointer tw-p-1 tw-text-lg" v-for="item in searchNodes" :key="item.sourceCode"
            @click="itemClick(item)"
            :class="{'item-active': selectedNode === item.sourceCode}">
-        <img :src="item.iconPath" alt=""/>{{ item.sourceName }}
+        <img :src="item.iconPath" alt=""/>
+        <span class="tw-text-base tw-font-sans tw-font-normal">{{ item.sourceName }}</span>
       </div>
     </div>
   </div>
@@ -77,14 +78,14 @@ const search = () => {
       &::before {
         content: '';
         position: absolute;
-        top: -8px; // 三角形高度的一半
+        top: -12px; // 三角形高度的一半
         left: 50%;
         transform: translateX(-50%);
         width: 0;
         height: 0;
         border-left: 15px solid transparent;
         border-right: 15px solid transparent;
-        border-top: 20px solid #FFF;
+        border-top: 25px solid #ffffff;
         z-index: 1;
         transition: all 0.3s ease;
       }

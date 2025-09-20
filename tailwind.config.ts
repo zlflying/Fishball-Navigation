@@ -24,6 +24,8 @@ export default <Partial<Config>>{
     theme: {
         colors: {
             'primary': '#fa661f',
+            'secondary': '#FFA042',
+            'background': '#F8F8F8',
         },
         extend: {
             colors: {
