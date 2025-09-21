@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import {ArrowDown} from "@element-plus/icons-vue";
 
 const value = ref('1')
 
@@ -15,13 +14,9 @@ const options = [{
 </script>
 
 <template>
-  <el-segmented v-model="value" :options="options" size="large" >
-    <template #default="scope">
-      <div class="tw-flex tw-flex-col tw-items-center tw-gap-2 tw-p-2">
-        <div>{{ scope.item.label }}</div>
-      </div>
-    </template>
-  </el-segmented>
+  <el-radio-group v-model="value" size="large">
+    <el-radio-button v-for="option in options" :label="option.label" :value="option.key" :disabled="option.disabled" />
+  </el-radio-group>
 </template>
 
 <style scoped lang="scss">
