@@ -28,7 +28,6 @@ const onMenuClick = (key: string, keyPath: string[]) => {
           </template>
           <el-menu-item v-for="menu in menuNode.children" :key="menu.nodeId" :index="menu.nodeId">
             <template #title>
-              <NuxtIcon name="line-md:menu"/>
               <span>{{ menu.displayName }}</span>
             </template>
           </el-menu-item>
