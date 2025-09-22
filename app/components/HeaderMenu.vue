@@ -1,21 +1,21 @@
 <script setup lang="ts">
+import {getDefaultMenuType, menus} from "~/constants/menuNodes";
 
-const value = ref('1')
+const value = ref<string>(getDefaultMenuType().key)
 
-const options = [{
-  key: '1',
-  label: '通用学科',
-  disabled: false
-}, {
-  key: '2',
-  label: '计算机科学',
-  disabled: false
-}];
+
+const menuSwitchEventBus = useEventBus<string>('menuSwitch');
+
+/** 菜单切换 */
+const handleChange = (val: string) => {
+  menuSwitchEventBus.emit(val);
+}
 </script>
 
 <template>
   <div class="custom-header-menu tw-mb-2 tw-select-none">
-    <el-segmented v-model="value" :options="options"
+    <el-segmented v-model="value" :options="menus"
+                  @change="handleChange"
                   :props="{label: 'label', value: 'key' ,disabled: 'disabled'}">
       <template #default="scope">
         <div class="tw-flex tw-items-center tw-gap-1">

@@ -9,7 +9,7 @@ const props = defineProps({
   },
 });
 
-const menuEventBus = useEventBus<string>('menu');
+const menuEventBus = useEventBus<string>('menuSelectItem');
 
 menuEventBus.on((nodeId: string) => {
   if (props.node.children && props.node.children.length > 0) {
@@ -35,7 +35,7 @@ const items = computed(() => {
 
 <template>
   <div class="content-item">
-    <div class="title tw-mb-1 tw-text-base tw-font-medium tw-flex tw-items-center tw-gap-1"
+    <div class="title tw-mb-2 tw-text-base tw-font-medium tw-flex tw-items-center tw-gap-1"
          :id="`item-${getSafeId(props.node.nodeId)}`">
       <NuxtIcon :name="props.node.iconPath as string"/>
       {{ props.node.displayName }}

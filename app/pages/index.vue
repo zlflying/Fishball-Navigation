@@ -1,5 +1,14 @@
 <script setup lang="ts">
-import {menuNodes} from "~/constants";
+import {getDefaultMenuType, getMenuNodesByType, type MenuNode} from "~/constants/menuNodes";
+
+const menuSwitchEventBus = useEventBus<string>('menuSwitch');
+
+/** 菜单 */
+const menuNodes = ref<MenuNode[]>(getDefaultMenuType().menu);
+
+menuSwitchEventBus.on((menuType: string) => {
+  menuNodes.value = getMenuNodesByType(menuType);
+});
 </script>
 
 <template>

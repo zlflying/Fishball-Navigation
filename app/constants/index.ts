@@ -1,7 +1,11 @@
-import menuNodes from "~/constants/menuNodes";
+import {commonMenuNodes, computerMenuNodes, getDefaultMenuType, getMenuNodesByType, menus} from "~/constants/menuNodes";
 import searchNodes from "~/constants/searchNodes";
 
 export {
-    menuNodes,
+    commonMenuNodes,
+    computerMenuNodes,
+    menus,
+    getMenuNodesByType,
+    getDefaultMenuType,
     searchNodes,
 };

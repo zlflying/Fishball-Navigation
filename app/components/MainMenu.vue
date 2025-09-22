@@ -1,8 +1,10 @@
 <script setup lang="ts">
-import {menuNodes} from "~/constants";
 import {getSafeId} from "~/utils";
+import {getDefaultMenuType, getMenuNodesByType, type MenuNode} from "~/constants/menuNodes";
 
-const menuEventBus = useEventBus<string>('menu');
+const menuEventBus = useEventBus<string>('menuSelectItem');
+
+const menuSwitchEventBus = useEventBus<string>('menuSwitch');
 
 /** 菜单激活事件 */
 const onMenuClick = (key: string, keyPath: string[]) => {
@@ -14,6 +16,12 @@ const onMenuClick = (key: string, keyPath: string[]) => {
   }
 }
 
+/** 菜单 */
+const menuNodes = ref<MenuNode[]>(getDefaultMenuType().menu);
+
+menuSwitchEventBus.on((menuType: string) => {
+  menuNodes.value = getMenuNodesByType(menuType);
+});
 
 </script>
 
