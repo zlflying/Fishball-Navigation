@@ -8,8 +8,6 @@ export interface MenuNode {
     nodeType: "MENU" | "ITEM",
     /** 节点图标 */
     iconPath: string | null;
-    /** 节点激活图标 */
-    activeIconPath: string | null;
     /** 节点子节点 */
     children: MenuNode[];
     /** 菜单项 */
@@ -38,8 +36,7 @@ const menuNodes: MenuNode[] = [
         nodeId: "1e3f7e1d-3c37-11f0-ba03-bc24117649c5",
         displayName: "鱼丸推荐",
         nodeType: "MENU",
-        iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/lingyantuijian.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=rHQmbMyM%2F2XbLcuZqYhgS1OpjcI%3D",
-        activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/lingyantuijian_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=T1xEW9FyFC5Sc8FMbgqnjJ98af8%3D",
+        iconPath: "line-md:thumbs-up",
         children: [],
         items: [
             {
@@ -112,15 +109,13 @@ const menuNodes: MenuNode[] = [
         nodeId: "126d7780-3c77-11f0-9b5b-bc24117649c5",
         displayName: "中文文献",
         nodeType: "MENU",
-        iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/zhongwen.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=eAmy3%2BM4LEKNZJkghC0QMqFVsVo%3D",
-        activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/zhongwen_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=G6b2QRatsNTfnaoTudxKBqJLDhc%3D",
+        iconPath: "line-md:text-box-multiple",
         children: [
             {
                 nodeId: "ca4937d2-57d9-4a06-a778-ba1c33098587",
                 displayName: "自然科学",
                 nodeType: "MENU",
                 iconPath: null,
-                activeIconPath: null,
                 children: [],
                 items: [
                     {
@@ -218,7 +213,6 @@ const menuNodes: MenuNode[] = [
                 displayName: "交叉学科",
                 nodeType: "MENU",
                 iconPath: null,
-                activeIconPath: null,
                 children: [],
                 items: [
                     {
@@ -268,7 +262,6 @@ const menuNodes: MenuNode[] = [
                 displayName: "人文科学",
                 nodeType: "MENU",
                 iconPath: null,
-                activeIconPath: null,
                 children: [],
                 items: [
                     {
@@ -310,7 +303,6 @@ const menuNodes: MenuNode[] = [
                 displayName: "社会科学",
                 nodeType: "MENU",
                 iconPath: null,
-                activeIconPath: null,
                 children: [],
                 items: [
                     {
@@ -368,7 +360,6 @@ const menuNodes: MenuNode[] = [
                 displayName: "工程技术",
                 nodeType: "MENU",
                 iconPath: null,
-                activeIconPath: null,
                 children: [],
                 items: [
                     {
@@ -549,15 +540,13 @@ const menuNodes: MenuNode[] = [
         nodeId: "1300200a-3c77-11f0-9b5b-bc24117649c5",
         displayName: "英文文献",
         nodeType: "MENU",
-        iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/yingwen.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=PZJp%2FK3SQQapUDfBPQTYOBMXbnU%3D",
-        activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/yingwen_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=FYWw%2BgivrdKAPaRyWnMJwAgCbGA%3D",
+        iconPath: "line-md:text-box-multiple-twotone",
         children: [
             {
                 nodeId: "cbe8a570-19c5-469d-94d7-07637d310884",
                 displayName: "交叉学科",
                 nodeType: "MENU",
                 iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/42627c8912b245e0864e053f27560d51.bianchengfuzhu.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=u62oUrn39PJmyc8wjN18wmIK5Gs%3D",
-                activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/92539f5e1e514c00bb56b863203b2094.bianchengfuzhu_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=bHcHyv%2F8UH%2Fh1C1uDXhkBXMH4Ss%3D",
                 children: [],
                 items: [
                     {
@@ -623,7 +612,6 @@ const menuNodes: MenuNode[] = [
                 displayName: "人文科学",
                 nodeType: "MENU",
                 iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/42627c8912b245e0864e053f27560d51.bianchengfuzhu.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=u62oUrn39PJmyc8wjN18wmIK5Gs%3D",
-                activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/92539f5e1e514c00bb56b863203b2094.bianchengfuzhu_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=bHcHyv%2F8UH%2Fh1C1uDXhkBXMH4Ss%3D",
                 children: [],
                 items: [
                     {
@@ -665,7 +653,6 @@ const menuNodes: MenuNode[] = [
                 displayName: "社会科学",
                 nodeType: "MENU",
                 iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/42627c8912b245e0864e053f27560d51.bianchengfuzhu.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=u62oUrn39PJmyc8wjN18wmIK5Gs%3D",
-                activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/92539f5e1e514c00bb56b863203b2094.bianchengfuzhu_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=bHcHyv%2F8UH%2Fh1C1uDXhkBXMH4Ss%3D",
                 children: [],
                 items: [
                     {
@@ -723,7 +710,6 @@ const menuNodes: MenuNode[] = [
                 displayName: "工程技术",
                 nodeType: "MENU",
                 iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/42627c8912b245e0864e053f27560d51.bianchengfuzhu.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=u62oUrn39PJmyc8wjN18wmIK5Gs%3D",
-                activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/92539f5e1e514c00bb56b863203b2094.bianchengfuzhu_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=bHcHyv%2F8UH%2Fh1C1uDXhkBXMH4Ss%3D",
                 children: [],
                 items: [
                     {
@@ -869,7 +855,6 @@ const menuNodes: MenuNode[] = [
                 displayName: "自然科学",
                 nodeType: "MENU",
                 iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/42627c8912b245e0864e053f27560d51.bianchengfuzhu.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=u62oUrn39PJmyc8wjN18wmIK5Gs%3D",
-                activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/92539f5e1e514c00bb56b863203b2094.bianchengfuzhu_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=bHcHyv%2F8UH%2Fh1C1uDXhkBXMH4Ss%3D",
                 children: [],
                 items: [
                     {
@@ -945,15 +930,13 @@ const menuNodes: MenuNode[] = [
         nodeId: "12741430-3c77-11f0-9b5b-bc24117649c5",
         displayName: "专利检索",
         nodeType: "MENU",
-        iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/wenxianjiansuo.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=Dke8IShOGhVKavEaHv0TRb7y1PQ%3D",
-        activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/wenxianjiansuo_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=kMb1gBnay2F4GP%2F8ky%2FpY%2FDpK30%3D",
+        iconPath: "line-md:clipboard-list",
         children: [
             {
                 nodeId: "446304ed-2d47-4ac3-b7fc-1d714f5e1d79",
                 displayName: "外国专利",
                 nodeType: "MENU",
                 iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/64190ff59cbe48a39082f367612529c2.bianchengfuzhu.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=y28RICWAfN41DOy4%2BXqbOQKD8RA%3D",
-                activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/57cd762774cc4ee3ad8b45750ab3ca93.bianchengfuzhu_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=yvJ2eC%2Fy7ZxES8UwaVTo2mAGAxA%3D",
                 children: [],
                 items: [
                     {
@@ -1003,7 +986,6 @@ const menuNodes: MenuNode[] = [
                 displayName: "中国专利",
                 nodeType: "MENU",
                 iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/a212e4478b84498c954313b26af6c3d4.bianchengfuzhu.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=1aLLRjb8k3P053sGHEedOTcgXqQ%3D",
-                activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/ebfb3474ac1f4f7ea643a2705708247e.bianchengfuzhu_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=vh7UUev%2FuLk7znvWhBzPzvqrOxU%3D",
                 children: [],
                 items: [
                     {
@@ -1055,15 +1037,13 @@ const menuNodes: MenuNode[] = [
         nodeId: "127a2288-3c77-11f0-9b5b-bc24117649c5",
         displayName: "期刊推荐",
         nodeType: "MENU",
-        iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/qikantuijian.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=lp5ShnR8KP2A82a5FaVbRCcNxlM%3D",
-        activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/qikantuijian_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=vQRfNL%2FgGIub6FnCTqIxm4us6w4%3D",
+        iconPath: "line-md:clipboard-list",
         children: [
             {
                 nodeId: "44c996e0-eb0c-4773-a58d-290eff7befcf",
                 displayName: "国际核心",
                 nodeType: "MENU",
                 iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/d6ee1e56864849f099e8d29a130ed172.bianchengfuzhu.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=%2Fn92Py0FTP0Et7fWL5lktFi7PXI%3D",
-                activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/5d61df4e792343bcada73679c286ba48.bianchengfuzhu_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=Cx3wWHOc2UU9JnHY0lwgyeDwpDE%3D",
                 children: [],
                 items: [
                     {
@@ -1105,7 +1085,6 @@ const menuNodes: MenuNode[] = [
                 displayName: "国内核心",
                 nodeType: "MENU",
                 iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/1b7fec58de3b44228c8180b9c6e23f6e.bianchengfuzhu.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=fXQL1WMJM%2Fy0TGZTh0xL%2B65U%2Bnw%3D",
-                activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/9c7a3469fdba4bc1a904a0fd5fde58aa.bianchengfuzhu_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=%2BcEwFFULdxb7dy2T7LBIaRSfbWg%3D",
                 children: [],
                 items: [
                     {
@@ -1165,8 +1144,7 @@ const menuNodes: MenuNode[] = [
         nodeId: "127a2288-3c77-11f0-9b5b-bc24117649c6",
         displayName: "期刊检索",
         nodeType: "MENU",
-        iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/e6bf076a9b6b417d87de52ab5bd178f2.Frame-9.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=4l5jn7SdyGt4YDpZGCsRDNDy4MA%3D",
-        activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/qikanjiansuo_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=9bv3buGCPgXAigNB7Sifn%2BebuEo%3D",
+        iconPath: "line-md:clipboard-list",
         children: [],
         items: [
             {
@@ -1215,8 +1193,7 @@ const menuNodes: MenuNode[] = [
         nodeId: "1220200a-3c77-11f0-9b5b-bc24117649c4",
         displayName: "写作翻译",
         nodeType: "MENU",
-        iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/xiezuo.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=X%2Fj0C1GxppWTEE%2BYYh%2FTtiv1oGY%3D",
-        activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/xiezuo_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=Z6NYliInW6oDLM4SYe3Fv1JecOQ%3D",
+        iconPath: "line-md:clipboard-list",
         children: [],
         items: [
             {
@@ -1265,8 +1242,7 @@ const menuNodes: MenuNode[] = [
         nodeId: "128136a1-3c77-11f0-9b5b-bc24117649c5",
         displayName: "文献管理",
         nodeType: "MENU",
-        iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/wenxianguanli.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=9b%2BSxPMGnsQUol9J6kX%2Fa2uFNhY%3D",
-        activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/wenxianguanli_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=l%2FAh6%2FpPCQA%2FtFlicG3M7xIwDvA%3D",
+        iconPath: "line-md:clipboard-list",
         children: [],
         items: [
             {
@@ -1291,15 +1267,13 @@ const menuNodes: MenuNode[] = [
         nodeId: "12898852-3c77-11f0-9b5b-bc24117649c5",
         displayName: "论文查重",
         nodeType: "MENU",
-        iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/eb867d9108384b178553c242c7f940a3.book.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=19euuMYXKWlKGuy4ZETCeLQwAOE%3D",
-        activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/53c30c5837a44a5db70c7990d02a858f.book-1.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=vToi%2FJT%2BTj4w3b67IvgwcrpLQuQ%3D",
+        iconPath: "line-md:clipboard-list",
         children: [
             {
                 nodeId: "c8fe8e32-f4de-4d1f-af7a-5ccae32039d8",
                 displayName: "科研/期刊论文查重",
                 nodeType: "MENU",
                 iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/291eabbc566e486eb1c68bb001b8366b.bianchengfuzhu.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=fvVu9DMpr0%2F360VDzCv%2Fa3Y4tLs%3D",
-                activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/e3373bdd74ed476f866829e49fe60bdc.bianchengfuzhu_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=znjVg7QEVVymN2ps8whYG7rY64U%3D",
                 children: [],
                 items: [
                     {
@@ -1333,7 +1307,6 @@ const menuNodes: MenuNode[] = [
                 displayName: "学位论文查重",
                 nodeType: "MENU",
                 iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/2f9a0eee01034bb7b315e57577c43b9b.bianchengfuzhu.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=VNgHDu4gkWmOwAwo%2BDgHSHBYJVk%3D",
-                activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/0acccf6a63a0439eabded2b68b9788b6.bianchengfuzhu_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=v%2Fc2zcviQ9qE%2BibNDpd3NNe8ghM%3D",
                 children: [],
                 items: [
                     {
@@ -1377,8 +1350,7 @@ const menuNodes: MenuNode[] = [
         nodeId: "1220200a-3c77-21f0-9b5b-bc24117649c5",
         displayName: "数据分析",
         nodeType: "MENU",
-        iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/shujufenxi.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=xFuqhhyiGnw1cUKBJ5OOvKsJhzU%3D",
-        activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/shujufenxi_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=zpYOVgGz63rSX4voL28yNckqCQ0%3D",
+        iconPath: "line-md:clipboard-list",
         children: [],
         items: [
             {
@@ -1427,8 +1399,7 @@ const menuNodes: MenuNode[] = [
         nodeId: "1290200a-3c77-11f0-9b5b-bc24117649c5",
         displayName: "科研绘图",
         nodeType: "MENU",
-        iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/kexuehuitu.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=En5h0E8NN%2FCgy0Ax3KQZG2W3jWs%3D",
-        activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/kexuehuitu_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=6gDPFM3C1QbO43VXaP4SD%2FqZh04%3D",
+        iconPath: "line-md:clipboard-list",
         children: [],
         items: [
             {
@@ -1501,8 +1472,7 @@ const menuNodes: MenuNode[] = [
         nodeId: "1220200a-3c27-21f0-9b5b-bc24117649d5",
         displayName: "基金项目",
         nodeType: "MENU",
-        iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/jijin.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=sBKfpZeuIprS7JAAMkBUkZEhAFU%3D",
-        activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/jijin_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=5%2BHI%2F5cG9WAv7%2FrQW6BYo%2Byc8bg%3D",
+        iconPath: "line-md:clipboard-list",
         children: [],
         items: [
             {
@@ -1559,8 +1529,7 @@ const menuNodes: MenuNode[] = [
         nodeId: "1240200a-3c27-21f0-9b5b-bc24117649d5",
         displayName: "科研社区",
         nodeType: "MENU",
-        iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/keyanshequ.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=NtVRrIBkpDWkMsQ6XDHCvnHiCF0%3D",
-        activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/keyanshequ_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=2utf3QCvZoh64q6pUmC99QXn4Vs%3D",
+        iconPath: "line-md:clipboard-list",
         children: [],
         items: [
             {
@@ -1625,8 +1594,7 @@ const menuNodes: MenuNode[] = [
         nodeId: "1240200a-3c27-21f0-9b5b-bc24117649d56",
         displayName: "预印平台",
         nodeType: "MENU",
-        iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/yuyinpingtai.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=RCc7D0CCnvEUOneZOeIf%2FIszRQk%3D",
-        activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/yuyinpingtai_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=zPT4RxIynAcvJ03pQIhb7D7lU4s%3D",
+        iconPath: "line-md:clipboard-list",
         children: [],
         items: [
             {
@@ -1675,15 +1643,13 @@ const menuNodes: MenuNode[] = [
         nodeId: "1240200a-3c27-21f0-9b5b-bc24117649d57",
         displayName: "编程辅助",
         nodeType: "MENU",
-        iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/bianchengfuzhu.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=XvhaD9%2Fwjm3K5SIhWwhDEnDg8w8%3D",
-        activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/bianchengfuzhu_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=wSjgJDQfKGCDc02zXeFKKfPNSpE%3D",
+        iconPath: "line-md:clipboard-list",
         children: [
             {
                 nodeId: "f827b175-6c22-4d7c-84c1-7a62479f3041",
                 displayName: "代码阅读",
                 nodeType: "MENU",
                 iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/cf46d671b7764d84b23edfc1eac17850.bianchengfuzhu.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=TsP8Q2WNd6kZJrGD9J5QcTRvOHc%3D",
-                activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/1115c5c8e763432c8471d777a126fdf7.bianchengfuzhu_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=ua2VMwEcWSaQTcA9Bdw%2BZePGN4Y%3D",
                 children: [],
                 items: [
                     {
@@ -1733,7 +1699,6 @@ const menuNodes: MenuNode[] = [
                 displayName: "代码编写",
                 nodeType: "MENU",
                 iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/a3e5ece0966b49b287904a929e8bffdd.bianchengfuzhu.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=Y1RedxWJrNpRDb49q347i6jf1%2Fs%3D",
-                activeIconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/351b0b245e014941b4409c05b8646d4d.bianchengfuzhu_active.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=Xuhgw3nvjVcwT2b1KJuZsBaNmq8%3D",
                 children: [],
                 items: [
                     {

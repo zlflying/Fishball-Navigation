@@ -29,7 +29,7 @@ const search = () => {
     <div
         class="search-input tw-bg-white dark:tw-bg-500 tw-rounded-full tw-flex tw-flex-row tw-items-center tw-gap-2 tw-p-2">
       <el-input class="search-input-text" size="large" v-model="query" placeholder="请输入搜索内容"/>
-      <el-button type="primary" :icon="Search" round @click="search">搜索</el-button>
+      <el-button class="tw-mr-1" type="primary" :icon="Search" round @click="search">搜索</el-button>
     </div>
     <el-menu
         :default-active="selectedNode"

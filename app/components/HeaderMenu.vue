@@ -1,5 +1,7 @@
 <script setup lang="ts">
 
+import {getSafeId} from "~/utils";
+
 const value = ref('1')
 
 const options = [{
@@ -14,10 +16,36 @@ const options = [{
 </script>
 
 <template>
-  <el-radio-group v-model="value" size="large">
-    <el-radio-button v-for="option in options" :label="option.label" :value="option.key" :disabled="option.disabled" />
-  </el-radio-group>
+  <div class="custom-header-menu tw-mb-2 tw-select-none">
+    <el-segmented v-model="value" :options="options"
+                  :props="{label: 'label', value: 'key' ,disabled: 'disabled'}">
+      <template #default="scope">
+        <div class="tw-flex tw-items-center tw-gap-1">
+          <div>{{ scope.item.label }}</div>
+        </div>
+      </template>
+    </el-segmented>
+  </div>
 </template>
 
 <style scoped lang="scss">
+.custom-header-menu {
+  --el-border-radius-base: 10px;
+
+  :deep(.el-segmented) {
+    --el-segmented-padding: 5px;
+    min-height: 38px;
+
+    .el-segmented__item {
+      font-size: 14px;
+      font-weight: 500;
+      border-radius: 12px;
+    }
+
+    .el-segmented__item-selected {
+      border-radius: 12px;
+    }
+
+  }
+}
 </style>

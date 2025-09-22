@@ -6,7 +6,7 @@ import {menuNodes} from "~/constants";
   <div class="content">
     <Search/>
     <div class="navigation">
-      <ContentItem v-for="item in menuNodes" :node="item"/>
+      <ContentItem class="tw-mt-1" v-for="item in menuNodes" :node="item" :key="item.nodeId"/>
     </div>
   </div>
 </template>
