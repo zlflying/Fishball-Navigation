@@ -25,7 +25,8 @@ const items = computed(() => {
 
 <template>
   <div class="content-item">
-    <div class="title tw-mb-1 tw-text-base tw-font-medium" :id="`item-${getSafeId(props.node.nodeId)}`">
+    <div class="title tw-mb-1 tw-text-base tw-font-medium tw-flex tw-items-center tw-gap-1" :id="`item-${getSafeId(props.node.nodeId)}`">
+      <NuxtIcon :name="props.node.iconPath as string" />
       {{ props.node.displayName }}
     </div>
     <div class="custom-children tw-mb-2 tw-select-none" v-if="props.node.children && props.node.children.length > 0">
