@@ -2,12 +2,19 @@
 import {menuNodes} from "~/constants";
 import {getSafeId} from "~/utils";
 
+const menuEventBus = useEventBus<string>('menu');
+
 /** 菜单激活事件 */
 const onMenuClick = (key: string, keyPath: string[]) => {
-  document.getElementById(`item-${getSafeId(key)}`)?.scrollIntoView({
+  document.getElementById(`item-${getSafeId(keyPath[0] as string)}`)?.scrollIntoView({
     behavior: "smooth",
-  })
+  });
+  if (keyPath.length > 1) {
+    menuEventBus.emit(keyPath[keyPath.length - 1]);
+  }
 }
+
+
 </script>
 
 <template>

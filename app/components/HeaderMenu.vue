@@ -1,7 +1,5 @@
 <script setup lang="ts">
 
-import {getSafeId} from "~/utils";
-
 const value = ref('1')
 
 const options = [{

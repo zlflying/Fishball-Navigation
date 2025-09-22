@@ -43,7 +43,7 @@ const menuNodes: MenuNode[] = [
                 itemId: "f86eec59-685e-4840-a22f-7fa0b3191391",
                 displayName: "中国知网（CNKI）",
                 description: "中国最大的学术论文数据库",
-                logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/4e742eed5e754c85bc8ba1e8194f4727.%E4%B8%AD%E5%9B%BD%E7%9F%A5%E7%BD%91%EF%BC%88CNKI%EF%BC%89.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=bh5apvu7Kef%2FK2BlzfR9eaVHmBA%3D",
+                logoPath: "./img/menu/4e742eed5e754c85bc8ba1e8194f4727.中国知网（CNKI）.png",
                 websiteUrl: "https://www.cnki.net/",
                 redirectType: "DETAIL"
             },
@@ -51,7 +51,7 @@ const menuNodes: MenuNode[] = [
                 itemId: "63939833-32e0-489a-811a-cf10791346a5",
                 displayName: "维普中文期刊",
                 description: "工程技术文献占优、支持同义词扩展检索",
-                logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/7ed71df8fa864f9e85948a10dbe35045.%E7%BB%B4%E6%99%AE%E4%B8%AD%E6%96%87%E6%9C%9F%E5%88%8A.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=lxqqGyA3KmWurPIih%2BNZz5VfMog%3D",
+                logoPath: "./img/menu/7ed71df8fa864f9e85948a10dbe35045.维普中文期刊.png",
                 websiteUrl: "https://qikan.cqvip.com",
                 redirectType: "DETAIL"
             },
@@ -59,7 +59,7 @@ const menuNodes: MenuNode[] = [
                 itemId: "ae45741a-a0fa-4932-9372-bbdb61750513",
                 displayName: "国家科技图书文献中心（NSTL）",
                 description: "集成中科院、工程院等资源",
-                logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/7ab6f284282447c7885bfe2ba9a0f4db.%E5%9B%BD%E5%AE%B6%E7%A7%91%E6%8A%80%E5%9B%BE%E4%B9%A6%E6%96%87%E7%8C%AE%E4%B8%AD%E5%BF%83%EF%BC%88NSTL%EF%BC%89.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=R%2FAgr6BwnTr7%2FKJNccwdKir%2FLPo%3D",
+                logoPath: "./img/menu/7ab6f284282447c7885bfe2ba9a0f4db.国家科技图书文献中心（NSTL）.png",
                 websiteUrl: "https://www.nstl.gov.cn",
                 redirectType: "DETAIL"
             },
@@ -67,7 +67,7 @@ const menuNodes: MenuNode[] = [
                 itemId: "d23b1130-4883-435a-91fd-163c675089d4",
                 displayName: "Web of Science",
                 description: "获取自然科学领域最权威、最前沿的科研信息",
-                logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/c31bd0f824224d18b8d080be9b68bc9c.Web%20of%20Science.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=b5IC4N%2FovRvHU9g8o2pwImih%2BLo%3D",
+                logoPath: "./img/menu/c31bd0f824224d18b8d080be9b68bc9c.Web of Science.png",
                 websiteUrl: "https://www.webofscience.com",
                 redirectType: "DETAIL"
             },
@@ -75,7 +75,7 @@ const menuNodes: MenuNode[] = [
                 itemId: "076c4c13-a5d5-488e-9f9d-4f0586049006",
                 displayName: "NoteExpress",
                 description: "论文写作时的参考文献管理",
-                logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/bd6a2903f34f4fec89cd42c64a8b6bdc.noteexpress.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=ri3R8ri61s44%2BShqNfpENNib3yA%3D",
+                logoPath: "./img/menu/bd6a2903f34f4fec89cd42c64a8b6bdc.noteexpress.png",
                 websiteUrl: "https://jc.inoteexpress.com/dynamo/index.html",
                 redirectType: "DETAIL"
             },
@@ -83,7 +83,7 @@ const menuNodes: MenuNode[] = [
                 itemId: "2941135d-4e52-4408-8293-fd1060f8f3a9",
                 displayName: "学信网查重",
                 description: "权威，本科 / 硕博适用",
-                logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/d2304d74ada14e988f3713aeb59ffb4c.%E5%AD%A6%E4%BF%A1%E7%BD%91%E6%9F%A5%E9%87%8D.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=%2B8XarURul5DBskx3rwcvhNrlIMc%3D",
+                logoPath: "./img/menu/d2304d74ada14e988f3713aeb59ffb4c.学信网查重.png",
                 websiteUrl: "https://chsi.wanfangtech.net",
                 redirectType: "DETAIL"
             },
@@ -91,7 +91,7 @@ const menuNodes: MenuNode[] = [
                 itemId: "7135ffe4-3be2-4d67-8251-f8af0b773ed5",
                 displayName: "ScienceDirect",
                 description: "是全球最大的科学、技术与医学全文电子资源数据库",
-                logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/52da7c106a8a457e83d1e6d4098c5c0c.sciencedirect.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=Kh95EjY49ongpnR56DgjhLOMgiI%3D",
+                logoPath: "./img/menu/52da7c106a8a457e83d1e6d4098c5c0c.sciencedirect.png",
                 websiteUrl: "https://www.sciencedirect.com",
                 redirectType: "DETAIL"
             },
@@ -99,7 +99,7 @@ const menuNodes: MenuNode[] = [
                 itemId: "b6217b2c-edaa-4678-8e86-00ba7dd547f3",
                 displayName: "arXiv",
                 description: "全球最大的预印本平台之一，及时了解这些领域的最新研究动态和成果",
-                logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/8ce573302fce48c59f115db0d64e522c.arxiv.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=eb58TXSG5MsOYslC7BQu6rnkxhQ%3D",
+                logoPath: "./img/menu/8ce573302fce48c59f115db0d64e522c.arxiv.png",
                 websiteUrl: "http://arxiv.org/",
                 redirectType: "DETAIL"
             }
@@ -122,7 +122,7 @@ const menuNodes: MenuNode[] = [
                         itemId: "e6ffeebd-3c3c-11f0-ba03-bc24117649c5",
                         displayName: "中国知网（CNKI）",
                         description: "中国最大的学术论文数据库",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/%E4%B8%AD%E5%9B%BD%E7%9F%A5%E7%BD%91%EF%BC%88CNKI%EF%BC%89.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=a1OqYqN6qQEgK7NNiYe122L7aPo%3D",
+                        logoPath: "./img/menu/4e742eed5e754c85bc8ba1e8194f4727.中国知网（CNKI）.png",
                         websiteUrl: "https://www.cnki.net/",
                         redirectType: "DETAIL"
                     },
@@ -130,7 +130,7 @@ const menuNodes: MenuNode[] = [
                         itemId: "41d38591-3d20-11f0-9b5b-bc24117649c5",
                         displayName: "国家科技图书文献中心（NSTL）",
                         description: "集成中科院、工程院等资源",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/%E5%9B%BD%E5%AE%B6%E7%A7%91%E6%8A%80%E5%9B%BE%E4%B9%A6%E6%96%87%E7%8C%AE%E4%B8%AD%E5%BF%83%EF%BC%88NSTL%EF%BC%89.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=OMGTPwtFqbMaA6h4uY6oK7GIfh4%3D",
+                        logoPath: "./img/menu/7ab6f284282447c7885bfe2ba9a0f4db.国家科技图书文献中心（NSTL）.png",
                         websiteUrl: "https://www.nstl.gov.cn",
                         redirectType: "DETAIL"
                     },
@@ -138,7 +138,7 @@ const menuNodes: MenuNode[] = [
                         itemId: "8143e503-8077-42dd-8ebe-71b1bc9cf41b",
                         displayName: "维普中文期刊",
                         description: "工程技术文献占优、支持同义词扩展检索",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/%E7%BB%B4%E6%99%AE%E4%B8%AD%E6%96%87%E6%9C%9F%E5%88%8A.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=bcCxLWxTpxjY6TljGFAFy1nhm6k%3D",
+                        logoPath: "./img/menu/7ed71df8fa864f9e85948a10dbe35045.维普中文期刊.png",
                         websiteUrl: "https://qikan.cqvip.com",
                         redirectType: "DETAIL"
                     },
@@ -146,7 +146,7 @@ const menuNodes: MenuNode[] = [
                         itemId: "524c18b0-e19e-42e5-a59a-caca6fde3dcd",
                         displayName: "国家科技图书文献中心（NSTL）",
                         description: "集成中科院、工程院等资源",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/%E5%9B%BD%E5%AE%B6%E7%A7%91%E6%8A%80%E5%9B%BE%E4%B9%A6%E6%96%87%E7%8C%AE%E4%B8%AD%E5%BF%83%EF%BC%88NSTL%EF%BC%89.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=OMGTPwtFqbMaA6h4uY6oK7GIfh4%3D",
+                        logoPath: "./img/menu/7ab6f284282447c7885bfe2ba9a0f4db.国家科技图书文献中心（NSTL）.png",
                         websiteUrl: "https://www.nstl.gov.cn",
                         redirectType: "DETAIL"
                     },
@@ -219,7 +219,7 @@ const menuNodes: MenuNode[] = [
                         itemId: "e69feebd-3c3c-11f0-ba03-bc24117649c5",
                         displayName: "中国知网（CNKI）",
                         description: "中国最大的学术论文数据库",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/%E4%B8%AD%E5%9B%BD%E7%9F%A5%E7%BD%91%EF%BC%88CNKI%EF%BC%89.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=a1OqYqN6qQEgK7NNiYe122L7aPo%3D",
+                        logoPath: "./img/menu/4e742eed5e754c85bc8ba1e8194f4727.中国知网（CNKI）.png",
                         websiteUrl: "https://www.cnki.net/",
                         redirectType: "DETAIL"
                     },
@@ -227,7 +227,7 @@ const menuNodes: MenuNode[] = [
                         itemId: "8343e503-8077-42dd-8ebe-71b1bc9cf41b",
                         displayName: "维普中文期刊",
                         description: "工程技术文献占优、支持同义词扩展检索",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/%E7%BB%B4%E6%99%AE%E4%B8%AD%E6%96%87%E6%9C%9F%E5%88%8A.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=bcCxLWxTpxjY6TljGFAFy1nhm6k%3D",
+                        logoPath: "./img/menu/7ed71df8fa864f9e85948a10dbe35045.维普中文期刊.png",
                         websiteUrl: "https://qikan.cqvip.com",
                         redirectType: "DETAIL"
                     },
@@ -268,7 +268,7 @@ const menuNodes: MenuNode[] = [
                         itemId: "e68feebd-3c3c-11f0-ba03-bc24117649c5",
                         displayName: "中国知网（CNKI）",
                         description: "中国最大的学术论文数据库",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/%E4%B8%AD%E5%9B%BD%E7%9F%A5%E7%BD%91%EF%BC%88CNKI%EF%BC%89.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=a1OqYqN6qQEgK7NNiYe122L7aPo%3D",
+                        logoPath: "./img/menu/4e742eed5e754c85bc8ba1e8194f4727.中国知网（CNKI）.png",
                         websiteUrl: "https://www.cnki.net/",
                         redirectType: "DETAIL"
                     },
@@ -309,7 +309,7 @@ const menuNodes: MenuNode[] = [
                         itemId: "e67feebd-3c3c-11f0-ba03-bc24117649c5",
                         displayName: "中国知网（CNKI）",
                         description: "中国最大的学术论文数据库",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/%E4%B8%AD%E5%9B%BD%E7%9F%A5%E7%BD%91%EF%BC%88CNKI%EF%BC%89.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=a1OqYqN6qQEgK7NNiYe122L7aPo%3D",
+                        logoPath: "./img/menu/4e742eed5e754c85bc8ba1e8194f4727.中国知网（CNKI）.png",
                         websiteUrl: "https://www.cnki.net/",
                         redirectType: "DETAIL"
                     },
@@ -366,7 +366,7 @@ const menuNodes: MenuNode[] = [
                         itemId: "e66feebd-3c3c-11f0-ba03-bc24117649c5",
                         displayName: "中国知网（CNKI）",
                         description: "中国最大的学术论文数据库",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/%E4%B8%AD%E5%9B%BD%E7%9F%A5%E7%BD%91%EF%BC%88CNKI%EF%BC%89.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=a1OqYqN6qQEgK7NNiYe122L7aPo%3D",
+                        logoPath: "./img/menu/4e742eed5e754c85bc8ba1e8194f4727.中国知网（CNKI）.png",
                         websiteUrl: "https://www.cnki.net/",
                         redirectType: "DETAIL"
                     },
@@ -374,7 +374,7 @@ const menuNodes: MenuNode[] = [
                         itemId: "8243e503-8077-42dd-8ebe-71b1bc9cf41b",
                         displayName: "维普中文期刊",
                         description: "工程技术文献占优、支持同义词扩展检索",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/%E7%BB%B4%E6%99%AE%E4%B8%AD%E6%96%87%E6%9C%9F%E5%88%8A.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=bcCxLWxTpxjY6TljGFAFy1nhm6k%3D",
+                        logoPath: "./img/menu/7ed71df8fa864f9e85948a10dbe35045.维普中文期刊.png",
                         websiteUrl: "https://qikan.cqvip.com",
                         redirectType: "DETAIL"
                     },
@@ -382,7 +382,7 @@ const menuNodes: MenuNode[] = [
                         itemId: "534c18b0-e19e-42e5-a59a-caca6fde3dcd",
                         displayName: "国家科技图书文献中心（NSTL）",
                         description: "集成中科院、工程院等资源",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/%E5%9B%BD%E5%AE%B6%E7%A7%91%E6%8A%80%E5%9B%BE%E4%B9%A6%E6%96%87%E7%8C%AE%E4%B8%AD%E5%BF%83%EF%BC%88NSTL%EF%BC%89.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=OMGTPwtFqbMaA6h4uY6oK7GIfh4%3D",
+                        logoPath: "./img/menu/7ab6f284282447c7885bfe2ba9a0f4db.国家科技图书文献中心（NSTL）.png",
                         websiteUrl: "https://www.nstl.gov.cn",
                         redirectType: "DETAIL"
                     },
@@ -418,7 +418,7 @@ const menuNodes: MenuNode[] = [
                 itemId: "8043e503-8077-42dd-8ebe-71b1bc9cf41b",
                 displayName: "维普中文期刊",
                 description: "工程技术文献占优、支持同义词扩展检索",
-                logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/%E7%BB%B4%E6%99%AE%E4%B8%AD%E6%96%87%E6%9C%9F%E5%88%8A.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=bcCxLWxTpxjY6TljGFAFy1nhm6k%3D",
+                logoPath: "./img/menu/7ed71df8fa864f9e85948a10dbe35045.维普中文期刊.png",
                 websiteUrl: "https://qikan.cqvip.com",
                 redirectType: "DETAIL"
             },
@@ -426,7 +426,7 @@ const menuNodes: MenuNode[] = [
                 itemId: "514c18b0-e19e-42e5-a59a-caca6fde3dcd",
                 displayName: "国家科技图书文献中心（NSTL）",
                 description: "集成中科院、工程院等资源",
-                logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/%E5%9B%BD%E5%AE%B6%E7%A7%91%E6%8A%80%E5%9B%BE%E4%B9%A6%E6%96%87%E7%8C%AE%E4%B8%AD%E5%BF%83%EF%BC%88NSTL%EF%BC%89.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=OMGTPwtFqbMaA6h4uY6oK7GIfh4%3D",
+                logoPath: "./img/menu/7ab6f284282447c7885bfe2ba9a0f4db.国家科技图书文献中心（NSTL）.png",
                 websiteUrl: "https://www.nstl.gov.cn",
                 redirectType: "DETAIL"
             },
@@ -434,7 +434,7 @@ const menuNodes: MenuNode[] = [
                 itemId: "d4b344d0-34da-434a-93e3-6899cdc5deb7",
                 displayName: "中国知网（CNKI）",
                 description: "中国最大的学术论文数据库",
-                logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/%E4%B8%AD%E5%9B%BD%E7%9F%A5%E7%BD%91%EF%BC%88CNKI%EF%BC%89.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=a1OqYqN6qQEgK7NNiYe122L7aPo%3D",
+                logoPath: "./img/menu/4e742eed5e754c85bc8ba1e8194f4727.中国知网（CNKI）.png",
                 websiteUrl: "https://www.cnki.net/",
                 redirectType: "DETAIL"
             },
@@ -553,7 +553,7 @@ const menuNodes: MenuNode[] = [
                         itemId: "58eb1c54-fbb4-445f-9917-e1c83d9519ff",
                         displayName: "Web of Science",
                         description: "获取自然科学领域最权威、最前沿的科研信息",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250912/4634876cb62949d69ebff72b47cdd11b.web-of-science.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=SW%2BMB5Lk0vV10zhpdBaHFDJcDTk%3D",
+                        logoPath: "./img/menu/c31bd0f824224d18b8d080be9b68bc9c.Web of Science.png",
                         websiteUrl: "https://www.webofscience.com",
                         redirectType: "DETAIL"
                     },
@@ -569,7 +569,7 @@ const menuNodes: MenuNode[] = [
                         itemId: "da020e45-377f-4a71-ad38-2568b372e89a",
                         displayName: "ScienceDirect",
                         description: "是全球最大的科学、技术与医学全文电子资源数据库",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250912/533364142cc64fd885d6de473a37ae0d.sciencedirect.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=gwcodxv0nu6nwmTlsho5nkp8RLc%3D",
+                        logoPath: "./img/menu/52da7c106a8a457e83d1e6d4098c5c0c.sciencedirect.png",
                         websiteUrl: "https://www.sciencedirect.com",
                         redirectType: "DETAIL"
                     },
@@ -618,7 +618,7 @@ const menuNodes: MenuNode[] = [
                         itemId: "72ac02f4-ae58-4ac7-a133-95cd603c835d",
                         displayName: "Web of Science",
                         description: "获取自然科学领域最权威、最前沿的科研信息",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250912/b81aa140465c405d8274595850aa62a5.web-of-science.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=E07ol1BSh8xP0SJ4WMCQ2fhxu8g%3D",
+                        logoPath: "./img/menu/c31bd0f824224d18b8d080be9b68bc9c.Web of Science.png",
                         websiteUrl: "https://www.webofscience.com",
                         redirectType: "DETAIL"
                     },
@@ -659,7 +659,7 @@ const menuNodes: MenuNode[] = [
                         itemId: "28fba66a-b3d0-433d-8faa-a0754bba7cbd",
                         displayName: "Web of Science",
                         description: "获取自然科学领域最权威、最前沿的科研信息",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250912/d1f4e8c5a7674ca497f255ce575ba14d.web-of-science.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=ie5IAZsVy0097qMlHHz%2BDZYCriA%3D",
+                        logoPath: "./img/menu/c31bd0f824224d18b8d080be9b68bc9c.Web of Science.png",
                         websiteUrl: "https://www.webofscience.com",
                         redirectType: "DETAIL"
                     },
@@ -724,7 +724,7 @@ const menuNodes: MenuNode[] = [
                         itemId: "256988a7-523b-4972-b7e5-f5f801975524",
                         displayName: "ScienceDirect",
                         description: "是全球最大的科学、技术与医学全文电子资源数据库",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/sciencedirect.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=TBd9DT8hYW2ZuhnLIfwLEcwHPLo%3D",
+                        logoPath: "./img/menu/52da7c106a8a457e83d1e6d4098c5c0c.sciencedirect.png",
                         websiteUrl: "https://www.sciencedirect.com",
                         redirectType: "DETAIL"
                     },
@@ -772,7 +772,7 @@ const menuNodes: MenuNode[] = [
                         itemId: "50a991d4-8372-43b6-906f-dc9b7f9c4c7f",
                         displayName: "Web of Science",
                         description: "获取自然科学领域最权威、最前沿的科研信息",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250912/c46956bcc3e94e1ebfc56293b5cef017.web-of-science.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=u3CdSROCc5yb6q0Q2nkhu2Y7QwA%3D",
+                        logoPath: "./img/menu/c31bd0f824224d18b8d080be9b68bc9c.Web of Science.png",
                         websiteUrl: "https://www.webofscience.com",
                         redirectType: "DETAIL"
                     },
@@ -861,7 +861,7 @@ const menuNodes: MenuNode[] = [
                         itemId: "bdf7aabd-d0f0-4d08-a3a9-0bbbb0b4dcab",
                         displayName: "Web of Science",
                         description: "获取自然科学领域最权威、最前沿的科研信息",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/Web%20of%20Science.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=gs4QuP5OPgMmuodYvew2NjbmrP0%3D",
+                        logoPath: "./img/menu/c31bd0f824224d18b8d080be9b68bc9c.Web of Science.png",
                         websiteUrl: "https://www.webofscience.com",
                         redirectType: "DETAIL"
                     },
@@ -901,7 +901,7 @@ const menuNodes: MenuNode[] = [
                         itemId: "4385a3f7-36c7-4fd7-ae74-680ea1270350",
                         displayName: "Elsevier",
                         description: "文献信息检索系统",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/Elsevier.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=htx7t41BhBLBNebNNSp1i64fKjo%3D",
+                        logoPath: "./img/menu/52da7c106a8a457e83d1e6d4098c5c0c.sciencedirect.png",
                         websiteUrl: "https://www.sciencedirect.com/",
                         redirectType: "DETAIL"
                     },
@@ -1249,7 +1249,7 @@ const menuNodes: MenuNode[] = [
                 itemId: "eef36b0d-d730-4a7b-89a9-6e6442006684",
                 displayName: "NoteExpress",
                 description: "论文写作时的参考文献管理",
-                logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/noteexpress.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=7h1SDYjHQdu2OGxJJ7EF%2BrcpT0g%3D",
+                logoPath: "./img/menu/bd6a2903f34f4fec89cd42c64a8b6bdc.noteexpress.png",
                 websiteUrl: "https://jc.inoteexpress.com/dynamo/index.html",
                 redirectType: "DETAIL"
             },
@@ -1329,7 +1329,7 @@ const menuNodes: MenuNode[] = [
                         itemId: "073b1426-f68a-4b00-a859-1d975fe94bfd",
                         displayName: "学信网查重",
                         description: "权威，本科 / 硕博适用",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/%E5%AD%A6%E4%BF%A1%E7%BD%91%E6%9F%A5%E9%87%8D.png?Expires=1758265970&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=kmZPeLFy0XAoLwlv8%2BR9tExcO%2FQ%3D",
+                        logoPath: "./img/menu/d2304d74ada14e988f3713aeb59ffb4c.学信网查重.png",
                         websiteUrl: "https://chsi.wanfangtech.net",
                         redirectType: "DETAIL"
                     },
