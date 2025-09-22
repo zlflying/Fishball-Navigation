@@ -1761,7 +1761,7 @@ export const computerMenuNodes: MenuNode[] = [
                 itemId: "f5c80bb6-d700-42d7-99a1-da1bd1f1257e",
                 displayName: "GitHub",
                 description: "全球最流行的代码托管平台",
-                logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/eb2c69c71b5c442ab47c08551069faaf.Github.png?Expires=1758527862&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=j4FNYCh0pF%2FyVFAMCMQqO4Qwi4A%3D",
+                logoPath: "./img/menu/GitHub.png",
                 websiteUrl: "https://github.com/",
                 redirectType: "DETAIL"
             },
@@ -1769,7 +1769,7 @@ export const computerMenuNodes: MenuNode[] = [
                 itemId: "1f509005-8784-45e8-9d7f-b5845defe764",
                 displayName: "GitLab",
                 description: "一站式代码托管和研发协作平台",
-                logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/082f56e69e0c48d194a17626e2b57d0c.GitLab.png?Expires=1758527862&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=OjYeSx25t4OkGcOTLhgmNdJJQD0%3D",
+                logoPath: "./img/menu/GitLab.png",
                 websiteUrl: "https://gitlab.cn/",
                 redirectType: "DETAIL"
             },
@@ -1777,7 +1777,7 @@ export const computerMenuNodes: MenuNode[] = [
                 itemId: "744343ec-e020-49e4-9bc5-1f7de695ab71",
                 displayName: "Gitee",
                 description: "代码托管、企业研发效能平台",
-                logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250910/97d5f7f338e84663812bfe8ad9445bc1.Gitee.png?Expires=1758527862&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=x7ld4YPfI8LRn2bKbHYC3udRbo4%3D",
+                logoPath: "./img/menu/Gitee.png",
                 websiteUrl: "https://gitee.com/",
                 redirectType: "DETAIL"
             },
@@ -2957,138 +2957,6 @@ export const computerMenuNodes: MenuNode[] = [
             }
         ],
         items: []
-    },
-    {
-        nodeId: "96b2b199-aae4-4b5c-97a4-e7323f2cd5c7",
-        displayName: "学习路线",
-        nodeType: "MENU",
-        iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/9bcae0daa0984aae9c19a74e19f51930.xuexiluxian.png?Expires=1758527862&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=UkAMaxmUVN8OddplbdEEhNt72uY%3D",
-        children: [
-            {
-                nodeId: "0b293067-b877-4fea-b44f-fa2c5dc53c56",
-                displayName: "论文写作",
-                nodeType: "MENU",
-                iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/tutor.jpeg?Expires=1758527862&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=%2FsbeA75zS0uhJD4j2f9BmZUQ4XI%3D",
-                children: [],
-                items: [
-                    {
-                        itemId: "029cc529-6913-438e-9bb4-3c35ea8c9436",
-                        displayName: "论文写作全流程",
-                        description: "资料形式：视频+资料\n资料内容：原理讲解+项目实战\n内容数量：更新中",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/d589a551833a47a2a9b4aa3d706fccaa.Mask%20group-1.png?Expires=1758527862&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=aYT8UNV3SBNlafKnapiir95PIQk%3D",
-                        websiteUrl: "https://b23.tv/LjkOElT",
-                        redirectType: "DETAIL_HOT"
-                    },
-                    {
-                        itemId: "263bdc04-a83d-437d-80f8-ab13798c79e9",
-                        displayName: "论文写作",
-                        description: "资料形式：视频+资料\n资料内容：原理讲解+案例实操\n内容数量：更新中",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/7cc8103d0ff44cfa9635322ebd66fff3.Mask%20group.png?Expires=1758527862&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=0pNtsdHxdcNHhoXfY4GH7vyWRNc%3D",
-                        websiteUrl: "https://b23.tv/XaNlUzt",
-                        redirectType: "DETAIL_HOT"
-                    },
-                    {
-                        itemId: "2b0d79ab-98e4-4b62-a8b6-0ca27c72a4ef",
-                        displayName: "论文结构图",
-                        description: "资料形式：视频+资料\n资料内容：查找并筛选数据集\n内容数量：更新中",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/9e080b5cd50648fdb4b4eff1e5177e4f.Mask%20group-2.png?Expires=1758527862&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=4pR7V2cYGL8QqndQDnyzVZx9UGs%3D",
-                        websiteUrl: "https://b23.tv/kkocOeW",
-                        redirectType: "DETAIL_HOT"
-                    }
-                ]
-            },
-            {
-                nodeId: "81d3f028-fb1b-41be-b0db-f67751a6ab5e",
-                displayName: "时间序列",
-                nodeType: "MENU",
-                iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/tutor.jpeg?Expires=1758527862&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=%2FsbeA75zS0uhJD4j2f9BmZUQ4XI%3D",
-                children: [],
-                items: [
-                    {
-                        itemId: "2f3816a9-e36a-425d-bbcf-ff349ffa31ef",
-                        displayName: "时间序列基础知识",
-                        description: "资料形式：视频+资料\n资料内容：查找并筛选数据集\n内容数量：更新中",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/4262713aac1b4c49b38a5a2df64c4156.Mask%20group-5.png?Expires=1758527862&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=%2FJSJoRtJ%2FN7IvewlGqHUjX030Go%3D",
-                        websiteUrl: "https://b23.tv/4KiKvTc",
-                        redirectType: "DETAIL_HOT"
-                    },
-                    {
-                        itemId: "f9173dd3-572a-403d-98f5-fdb6127b3b1d",
-                        displayName: "时间序列序列2025年论文合集",
-                        description: "资料形式：视频+资料\n资料内容：原理讲解+项目实战\n内容数量：更新中",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/37469c11c91142bd8b26e344446b8bef.Mask%20group-3.png?Expires=1758527862&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=KdgXyl0okxcXMqlOdyq3%2Byuo5IY%3D",
-                        websiteUrl: "https://b23.tv/lz4zNAK",
-                        redirectType: "DETAIL_HOT"
-                    },
-                    {
-                        itemId: "4f5c6c99-5e34-4bed-b3f7-09b421b8688f",
-                        displayName: "时间序列经典模型",
-                        description: "资料形式：视频+资料\n资料内容：原理讲解+案例实操\n内容数量：更新中",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/f9c8f9ee03a44762a2b1a756add00258.Mask%20group-6.png?Expires=1758527862&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=ONc%2FsKxSMt%2Fc1%2FM%2Ffx8Khj5dYmg%3D",
-                        websiteUrl: "https://b23.tv/TeNAyqz",
-                        redirectType: "DETAIL_HOT"
-                    },
-                    {
-                        itemId: "df32ef18-9a15-4214-9850-c91eb18c6263",
-                        displayName: "时间训练进阶方法与实战应用",
-                        description: "资料形式：视频+资料\n资料内容：核心算法细讲+逐行代码解读\n内容数量：更新中",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/99193a86371241529b810d28ab593cf3.%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97%E6%96%B9%E6%B3%95%E8%BF%9B%E9%98%B6.png?Expires=1758527862&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=eA4Gj6Md8HjB3UvTpuDr3AsDxZM%3D",
-                        websiteUrl: "https://www.malaedu.com/#/courses",
-                        redirectType: "DETAIL_HOT"
-                    }
-                ]
-            },
-            {
-                nodeId: "91d427c3-9ea1-4740-b97b-92055adfa0d9",
-                displayName: "科研入门",
-                nodeType: "MENU",
-                iconPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/tutor.jpeg?Expires=1758527862&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=%2FsbeA75zS0uhJD4j2f9BmZUQ4XI%3D",
-                children: [],
-                items: [
-                    {
-                        itemId: "fdf3ae5a-fab4-4a91-b00b-bc0e577deb10",
-                        displayName: "AI人工智能基础",
-                        description: "资料形式：视频+资料\n资料内容：核心算法细讲+逐行代码解读\n内容数量：更新中",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/0d81b9baabe942e4b1fb7259708fa719.Mask%20group-2.png?Expires=1758527862&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=WrYE6O5Wz7kF6yLJJgF%2Fp%2BQQwXc%3D",
-                        websiteUrl: "https://b23.tv/LkfPa7R",
-                        redirectType: "DETAIL_HOT"
-                    },
-                    {
-                        itemId: "1f1bbe61-1246-49e5-ab03-d55dffb42cc0",
-                        displayName: "基础模型",
-                        description: "资料形式：视频+资料\n资料内容：查找并筛选数据集\n内容数量：更新中",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/77d4783b5c3f445594c3a8f1e6133a03.Mask%20group-3.png?Expires=1758527862&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=iiSvJFOurnmB4VxmaCXTdJh6eDA%3D",
-                        websiteUrl: "https://b23.tv/m3dSv4d",
-                        redirectType: "DETAIL_HOT"
-                    },
-                    {
-                        itemId: "1091bccb-fac5-4f40-b00e-2e924c361e9d",
-                        displayName: "深度学习从入门到精通",
-                        description: "资料形式：视频+资料 资料内容：核心算法细讲+逐行代码解读 内容数量：更新中",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/3703d4a6fb0c4876950ad991a5c34c8e.Mask%20group-1.png?Expires=1758527862&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=TF5DnWw5I7011JCsotG49q0j4gY%3D",
-                        websiteUrl: "https://b23.tv/uAZEdj4",
-                        redirectType: "DETAIL_HOT"
-                    },
-                    {
-                        itemId: "61c42ab1-51cd-4ffe-a65a-992a893972dc",
-                        displayName: "0基础入门Pytorch",
-                        description: "资料形式：视频+资料\n资料内容：原理讲解+案例实操\n内容数量：更新中",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/535d45e6ecac4c5fb07135594dd6d666.Mask%20group-2.png?Expires=1758527862&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=CtWrvkoGaDZdsMQeeTNES5HAGsU%3D",
-                        websiteUrl: "https://b23.tv/6quczUs",
-                        redirectType: "DETAIL_HOT"
-                    },
-                    {
-                        itemId: "31f26487-d623-4e99-9b7b-491640538e1b",
-                        displayName: "强化学习0基础入门",
-                        description: "资料形式：视频+资料\n资料内容：核心算法细讲+逐行代码解读\n内容数量：更新中",
-                        logoPath: "https://mala-lr-prod.oss-cn-hangzhou.aliyuncs.com/filehub/navigation/20250911/aea6bc44227b48748e363ff8df0f7835.Group%20427320620.png?Expires=1758527862&OSSAccessKeyId=LTAI5tDWrp4ZJjSHuR4BhBVw&Signature=8LlDXZNgoVWx7s%2BZuix6AJcKkys%3D",
-                        websiteUrl: "https://b23.tv/sg3sWbq",
-                        redirectType: "DETAIL_HOT"
-                    }
-                ]
-            }
-        ],
-        items: []
     }
 ];
 
@@ -3128,5 +2996,6 @@ export function getMenuNodesByType(type: string): MenuNode[] {
 
 /** 获取默认菜单类型 */
 export function getDefaultMenuType(): MenuType {
+    console.log(JSON.stringify(computerMenuNodes));
     return menus.find(item => item.default) || menus[0] as MenuType;
 }
