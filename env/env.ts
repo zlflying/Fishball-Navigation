@@ -21,9 +21,9 @@ export interface Env {
 /** 获取环境变量 */
 export function getEnvConfig(): Env {
     const envMode = process.env.NODE_ENV;
-    if (envMode === 'production') {
-        return prodEnv()
-    } else {
+    if (envMode === 'development') {
         return devEnv()
+    } else {
+        return prodEnv()
     }
 }
