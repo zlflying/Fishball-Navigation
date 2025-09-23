@@ -54,7 +54,7 @@ export default defineNuxtConfig({
         '@nuxtjs/tailwindcss',
         '@formkit/auto-animate/nuxt',
         'pinia-plugin-persistedstate/nuxt',
-        '@nuxt/icon'
+        '@nuxt/icon',
     ],
 
     plugins: [

@@ -39,6 +39,59 @@ function handleItemClick(item: MenuItem) {
   }
   window.open(item.websiteUrl, '_blank');
 }
+
+// 用于跟踪可见的图片元素
+const imgRefs = ref<HTMLElement[]>([]);
+
+// 创建交叉观察器
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const img = entry.target as HTMLImageElement;
+      if (img.dataset.src) {
+        img.src = img.dataset.src;
+        img.removeAttribute('data-src');
+      }
+    }
+  });
+}, {
+  rootMargin: '50px' // 提前50px开始加载
+});
+
+// 组件挂载后设置观察器
+onMounted(() => {
+  imgRefs.value.forEach(img => {
+    if (img) observer.observe(img);
+  });
+});
+
+// 组件卸载前断开观察器
+onUnmounted(() => {
+  observer.disconnect();
+});
+
+// 更新观察器
+function updateObserver() {
+  // 断开之前的观察
+  observer.disconnect();
+
+  // 重新观察所有图片
+  nextTick(() => {
+    imgRefs.value.forEach(img => {
+      if (img) observer.observe(img);
+    });
+  });
+}
+
+// 监听items变化，重新设置观察器
+watch(items, () => {
+  updateObserver();
+});
+
+// 监听childrenSelected变化，重新设置观察器
+watch(childrenSelected, () => {
+  updateObserver();
+});
 </script>
 
 <template>
@@ -67,7 +120,13 @@ function handleItemClick(item: MenuItem) {
           "
           v-for="item in items" :key="item.itemId" @click="handleItemClick(item)">
         <div class="tw-flex tw-items-center tw-gap-2 tw-h-full">
-          <img :src="item.logoPath" alt="" class="tw-rounded-full tw-border-[1px] tw-w-12 tw-h-12">
+          <!-- 使用懒加载的图片 -->
+          <img
+              ref="imgRefs"
+              :data-src="item.logoPath"
+              :alt="item.displayName"
+              class="tw-rounded-full tw-border-[1px] tw-w-12 tw-h-12"
+              loading="lazy" >
           <div class="tw-flex tw-flex-col tw-gap-2 tw-w-[calc(100%-48px-0.5rem)]">
             <div class="tw-font-sans tw-text-sm">{{ item.displayName }}</div>
             <div class="tw-text-xs tw-text-slate-400 tw-truncate" :title="item.description">
