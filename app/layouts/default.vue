@@ -11,7 +11,6 @@
         </el-main>
       </el-container>
     </el-container>
-    <el-backtop :right="100" :bottom="100" />
   </main>
 </template>
 <script setup lang="ts">

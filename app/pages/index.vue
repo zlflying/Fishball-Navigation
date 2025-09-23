@@ -13,10 +13,11 @@ menuSwitchEventBus.on((menuType: string) => {
 
 <template>
   <div class="content">
-    <Search/>
+    <Search class="tw-m-5"/>
     <div class="navigation">
       <ContentItem class="tw-mt-8" v-for="item in menuNodes" :node="item" :key="item.nodeId"/>
     </div>
+    <el-backtop/>
   </div>
 </template>
 

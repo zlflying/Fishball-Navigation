@@ -55,6 +55,15 @@ menuSwitchEventBus.on((menuType: string) => {
 .main-menu {
   :deep(.el-menu) {
     border-right: none;
+    font-weight: 500;
+
+    .el-menu-item {
+      &.is-active {
+        background: var(--el-color-primary) !important;
+        backdrop-filter: blur(5px);
+        color: white;
+      }
+    }
   }
 }
 </style>

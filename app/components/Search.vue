@@ -33,7 +33,7 @@ const search = () => {
     </div>
     <el-menu
         :default-active="selectedNode"
-        class="search-menu"
+        class="search-menu tw-transition-all"
         mode="horizontal"
         @select="itemClick"
     >

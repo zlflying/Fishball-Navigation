@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type {MenuNode} from "~/constants/menuNodes";
+import type {MenuItem, MenuNode} from "~/constants/menuNodes";
 import {getSafeId} from "~/utils";
 
 const props = defineProps({
@@ -31,6 +31,14 @@ const items = computed(() => {
   // 不存在子节点
   return props.node.items;
 });
+
+/** 点击条目  */
+function handleItemClick(item: MenuItem) {
+  if (item.websiteUrl && item.websiteUrl === '') {
+    ElMessage.warning('暂无数据');
+  }
+  window.open(item.websiteUrl, '_blank');
+}
 </script>
 
 <template>
@@ -57,7 +65,7 @@ const items = computed(() => {
           tw-w-[344px] tw-pl-3 tw-pr-3 tw-pt-5 tw-pb-5 tw-rounded-xl
           hover:tw-translate-y-[-5px] hover:tw-ease hover:tw-duration-500 hover:tw-shadow-2xl
           "
-          v-for="item in items" :key="item.itemId">
+          v-for="item in items" :key="item.itemId" @click="handleItemClick(item)">
         <div class="tw-flex tw-items-center tw-gap-2 tw-h-full">
           <img :src="item.logoPath" alt="" class="tw-rounded-full tw-border-[1px] tw-w-12 tw-h-12">
           <div class="tw-flex tw-flex-col tw-gap-2 tw-w-[calc(100%-48px-0.5rem)]">
