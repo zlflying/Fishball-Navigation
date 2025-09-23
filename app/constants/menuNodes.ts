@@ -914,28 +914,28 @@ export const commonMenuNodes: MenuNode[] = [
                 itemId: "1353e367-b91b-4db2-8b94-ffd4a2c50657",
                 displayName: "SCI《科学引文索引》/Science Citation Index",
                 description: "一个多学科的综合性大型引文数据库",
-                logoPath: envConfig.baseUrl + "img/menu/SCI《科学引文索引》/ScienceCitationIndex.png",
+                logoPath: envConfig.baseUrl + "img/menu/ScienceCitationIndex.png",
                 websiteUrl: "https://clarivate.com/webofsciencegroup/",
                 redirectType: "DETAIL"
             }, {
                 itemId: "980e2684-58d6-438d-9440-1de1f43f5255",
                 displayName: "EI《工程索引》/The Engineering Index",
                 description: "期刊包括全部工程学科和工程活动领域的研究成果",
-                logoPath: envConfig.baseUrl + "img/menu/EI《工程索引》/TheEngineeringIndex.png",
+                logoPath: envConfig.baseUrl + "img/menu/TheEngineeringIndex.png",
                 websiteUrl: "https://www.engineeringvillage.com/",
                 redirectType: "DETAIL"
             }, {
                 itemId: "bf13bee0-1f5c-40c8-8308-b046068a1672",
                 displayName: "SSCI《社会科学引文索引》/Social Sciences Citation Index",
                 description: "社会科学领域重要的引文索引数据库，也是 SCI 的姊妹索引",
-                logoPath: envConfig.baseUrl + "img/menu/SSCI《社会科学引文索引》/SocialSciencesCitationIndex.png",
+                logoPath: envConfig.baseUrl + "img/menu/SocialSciencesCitationIndex.png",
                 websiteUrl: "https://clarivate.com/webofsciencegroup/",
                 redirectType: "DETAIL"
             }, {
                 itemId: "89d98a7d-3c95-4a64-920f-188d182359f6",
                 displayName: "ISTP《科技会议录索引》/Index to Scientific & Technical Proceedings",
                 description: "检索全世界正式出版的会议文献的主要和权威工具",
-                logoPath: envConfig.baseUrl + "img/menu/ISTP《科技会议录索引》/IndextoScientific&TechnicalProceedings.png",
+                logoPath: envConfig.baseUrl + "img/menu/IndextoScientific&TechnicalProceedings.png",
                 websiteUrl: "https://clarivate.com/webofsciencegroup/",
                 redirectType: "DETAIL"
             }]
@@ -963,7 +963,7 @@ export const commonMenuNodes: MenuNode[] = [
                 itemId: "639e3952-1f1b-47ca-9b3e-2c969d916200",
                 displayName: "中国科技论文统计源期刊/中国科技核心期刊",
                 description: "中国科学技术信息研究所",
-                logoPath: envConfig.baseUrl + "img/menu/中国科技论文统计源期刊/中国科技核心期刊.png",
+                logoPath: envConfig.baseUrl + "img/menu/中国科技核心期刊.png",
                 websiteUrl: "http://www.istic.ac.cn",
                 redirectType: "DETAIL"
             }, {
@@ -1104,7 +1104,7 @@ export const commonMenuNodes: MenuNode[] = [
             nodeId: "c8fe8e32-f4de-4d1f-af7a-5ccae32039d8",
             displayName: "科研/期刊论文查重",
             nodeType: "MENU",
-            iconPath: envConfig.baseUrl + "img/menu/科研/期刊论文查重.png",
+            iconPath: envConfig.baseUrl + "img/menu/期刊论文查重.png",
             children: [],
             items: [{
                 itemId: "156ec0d4-7f37-4e44-890d-1df980f6d8cf",
