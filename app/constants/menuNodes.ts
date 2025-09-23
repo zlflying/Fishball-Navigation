@@ -2,6 +2,8 @@ import {getEnvConfig} from "~~/env/env";
 
 const envConfig = getEnvConfig();
 
+console.log("加载菜单节点，配置", envConfig);
+
 /** 菜单节点 */
 export interface MenuNode {
     /** 节点ID */
