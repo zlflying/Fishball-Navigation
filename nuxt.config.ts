@@ -56,7 +56,6 @@ export default defineNuxtConfig({
         '@formkit/auto-animate/nuxt',
         'pinia-plugin-persistedstate/nuxt',
         '@nuxt/icon',
-        '@nuxtjs/mdc',
     ],
 
     plugins: [
