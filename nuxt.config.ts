@@ -1,4 +1,5 @@
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
+import {defineNuxtConfig} from 'nuxt/config'
 import consola from "consola";
 import {getEnvConfig} from "./env/env";
 import {formatDate} from "compatx";
@@ -55,6 +56,7 @@ export default defineNuxtConfig({
         '@formkit/auto-animate/nuxt',
         'pinia-plugin-persistedstate/nuxt',
         '@nuxt/icon',
+        '@nuxtjs/mdc',
     ],
 
     plugins: [
@@ -86,7 +88,7 @@ export default defineNuxtConfig({
 
     sitemap: {},
 
-    robots:{
+    robots: {
         robotsTxt: false,
     },
 

@@ -16,4 +16,9 @@ const envConfig = getEnvConfig();
 
 <style scoped lang="scss">
 
+img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9999px;
+}
 </style>
